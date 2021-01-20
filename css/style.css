@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Proxima Nova Regular";
+    src: url("../fonts/font.otf") format("opentype");
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    background-color: #464F54;
+}
+
+.dataStyle { 
+    font-family: "Proxima Nova Regular";
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 44px;
+    color: #B4B4B4;
+    margin: 0 0 0 4px;   
+}
+
+.textWrapper {
+    background-color: #fff;
+    margin: 10px 90px 0 90px;
+    padding: 0 90px;
+}
+
+.container {
+    border-left: 3px solid #E8ECED;
+    padding: 220px 80px 50px 80px;
+}
+
+.titleStyle {
+    font-size: 95px;
+    text-transform: uppercase;
+    font-family: Arial;
+    margin: 40px 0 0 0;
+}
+
+.mainContent {
+    padding: 180px 0 0 0;
+}
+
+.subtitleStyle {
+    font-style: italic;
+    font-size: 50px;
+    color: #8F8F8F;
+    margin: 0 0 60px 0;
+}
+
+p {
+    font-size: 35px;
+    margin: 45px 0 0 0;
+}
+
+p span {
+    font-style: italic;
+}
+
+.inputStyle {
+    display: block;
+    height: 60px;
+    margin: 10px 0 0 0;
+    padding: 0 0 15px 0;
+    font-size: 50px;
+    color: #fff;
+    background-color: #181818;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-bottom: 3px solid #303030;
+    font-family: "Playfair Display";
+}
+
+.inputTitleStyle {
+    font-family: "Proxima Nova Regular";
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 25px;
+    color: #767676;
+}
+
+.textFieldStyle {
+    background-color: #181818;
+    padding: 60px 0 70px 70px;
+    margin: 0 0 -100px 450px;
+    display: block;
+    position: relative; 
+}
+
+.buttonsStyle {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9C64A;
+    align-items: center;
+    padding: 20px 290px 20px 40px;
+    margin: 100px 0 -180px 518px;
+    position: relative;
+}
+
+svg:hover rect {
+    opacity: 1;
+    cursor: pointer;
+}
